@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MagnifyStudio_PriceAdjust</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Mass adjust product prices based on rules. Advanced multi-store features.</summary>
+    <description>Ability to mass adjust product prices using rules. Can simply increase or decrease chosen product prices or set individual rules based on a products weight. The rules can be saved for easier rerunning of the adjustment. Advanced multi-store feature for choosing a source store for the prices and then targeting the corresponding products in a target store.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Magnify Studio</name><user>magnifystudio</user><email>micheal.morgan@magnifystudio.com</email></author></authors>
+    <date>2014-03-15</date>
+    <time>07:22:26</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="MagnifyStudio_PriceAdjust.xml" hash="7cba81990b5cc766b358fe2879f05ec9"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="magnifystudio"><dir name="priceadjust"><file name="priceadjust.phtml" hash="8ff7822aa0fce421ab466b123ce61e81"/><file name=".DS_Store" hash="50c42cd2b89247cd779d00a70a5f341b"/></dir></dir></dir><dir name="layout"><file name="magnifystudio_priceadjust.xml" hash="868770d2f533b48b1913651fa1f21369"/></dir></dir></dir></dir></target><target name="magecommunity"><dir name="MagnifyStudio"><dir name="PriceAdjust"><dir><dir name="Helper"><file name="Data.php" hash="d8dbf499fe7b559da059cd141960b114"/><file name=".DS_Store" hash="3f3a2d9fa57478d21b0cbf6407cd3df0"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Priceadjust"><file name="Collection.php" hash="2f0de70df439f49a3c0dd42fc44aae44"/><file name=".DS_Store" hash="f3b2bab29f6b7eddfad0ccf944ef875f"/></dir><file name="Priceadjust.php" hash="3b2e3ec1c3d403b1961539b23d8bdc9d"/><file name=".DS_Store" hash="4029269024a69819d4a416f870145afc"/></dir><file name="Observer.php" hash="f0120223db35ea4f2e9548045f2c675c"/><file name="Priceadjust.php" hash="b9a9b9a5b16d40b575dfcb665a22cefb"/><file name=".DS_Store" hash="734c72fae8ab3470afbd540123e6fcef"/></dir><dir name="controllers"><file name="AdjustController.php" hash="9d45b3f98f51f99170669088fa9c2009"/><file name=".DS_Store" hash="f20aeed4dd746faabec770ccf9e87ef7"/></dir><dir name="etc"><file name="config.xml" hash="fc86ff3be920d3aad16447281bd76ba3"/><file name=".DS_Store" hash="c1946c774535b7e5cd8ff067c3957a7c"/></dir><dir name="sql"><dir name="priceadjust_setup"><file name="mysql4-install-0.1.0.php" hash="f40e45b21800e8beda6118cb3ecee4c8"/><file name=".DS_Store" hash="1cde15192a2cf058aa9adb4503f6a96a"/></dir><file name=".DS_Store" hash="25dbb7b2523dfea807261271a3e1db9e"/></dir></dir><file name=".DS_Store" hash="de7db78171bf9ec4055f8a59ad2d8066"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
