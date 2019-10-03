@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/MagnifyStudio_PriceAdjust",
+    "name": "OpenMageModuleFostering\/MagnifyStudio_PriceAdjust",
     "type": "magento-module",
     "license": "MIT",
     "homepage": "",
     "description": "Mass adjust product prices based on rules. Advanced multi-store features.",
     "authors": [
-    {
-        "name": "Magnify Studio",
-        "email": "micheal.morgan@magnifystudio.com"
-    }
-],
+        {
+            "name": "Magnify Studio",
+            "email": "micheal.morgan@magnifystudio.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
